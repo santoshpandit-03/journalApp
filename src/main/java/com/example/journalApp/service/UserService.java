@@ -29,11 +29,7 @@ public class UserService {
             userRepository.save(user);
             return true;
         } catch (Exception e) {
-            log.error("hehehehehe");
-            log.warn("hehehehehe");
-            log.info("hehehehehe");
-            log.debug("hehehehehe");
-            log.trace("hehehehehe");
+            log.error("Error while saving user", e);
             return false;
         }
     }
