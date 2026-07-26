@@ -34,5 +34,4 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           MONGODB_URI: ${{ secrets.MONGODB_URI }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=santoshpandit-03_journalapp
-        
+          run: mvn -B clean verify -DskipTests org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=santoshpandit-03_journalapp
