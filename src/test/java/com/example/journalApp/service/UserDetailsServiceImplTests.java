@@ -1,6 +1,6 @@
 package com.example.journalApp.service;
 
-import com.example.journalApp.Repository.UserRepository;
+import com.example.journalApp.repository.UserRepository;
 import com.example.journalApp.entity.User;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;

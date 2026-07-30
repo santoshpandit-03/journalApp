@@ -1,6 +1,6 @@
 package com.example.journalApp.service;
 
-import com.example.journalApp.Repository.UserRepository;
+import com.example.journalApp.repository.UserRepository;
 import com.example.journalApp.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

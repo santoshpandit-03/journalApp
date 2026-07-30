@@ -1,6 +1,6 @@
 package com.example.journalApp.service;
 
-import com.example.journalApp.Repository.JournalEntryRepository;
+import com.example.journalApp.repository.JournalEntryRepository;
 import com.example.journalApp.entity.JournalEntry;
 import com.example.journalApp.entity.User;
 import lombok.extern.slf4j.Slf4j;

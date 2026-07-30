@@ -1,6 +1,6 @@
 package com.example.journalApp.service;
 
-import com.example.journalApp.Repository.UserRepository;
+import com.example.journalApp.repository.UserRepository;
 import com.example.journalApp.entity.User;
 import lombok.extern.slf4j.Slf4j;
 import org.bson.types.ObjectId;

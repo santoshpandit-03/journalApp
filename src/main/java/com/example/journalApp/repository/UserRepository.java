@@ -1,4 +1,4 @@
-package com.example.journalApp.Repository;
+package com.example.journalApp.repository;
 
 import com.example.journalApp.entity.User;
 import org.bson.types.ObjectId;

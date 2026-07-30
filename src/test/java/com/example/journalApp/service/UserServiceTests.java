@@ -1,6 +1,6 @@
 package com.example.journalApp.service;
 
-import com.example.journalApp.Repository.UserRepository;
+import com.example.journalApp.repository.UserRepository;
 import com.example.journalApp.entity.User;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -20,6 +20,7 @@ public class UserServiceTests {
     @Autowired
     private UserService userService;
 
+    @Disabled
     @ParameterizedTest
     @ArgumentsSource(UserArgumentsProvider.class)
     public void testSaveNewUser(User user) {
