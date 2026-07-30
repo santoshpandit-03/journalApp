@@ -64,6 +64,32 @@ Create the following environment variables before running the application.
 | KAFKA_JAAS_CONFIG | Kafka JAAS Configuration |
 | WEATHER_API_KEY | Weather API Key |
 
+## Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/santoshpandit-03/journalApp.git
+```
+
+Move into the project
+
+```bash
+cd journalApp
+```
+
+Build the project
+
+```bash
+mvn clean install
+```
+
+Run the application
+
+```bash
+mvn spring-boot:run
+```
+
 ## Security
 
 Sensitive information is **not stored** in the repository.
@@ -77,3 +103,11 @@ GitHub Actions automatically performs:
 - Maven Build
 - Unit Tests
 - SonarQube Analysis
+
+## Testing
+
+Run tests using
+
+```bash
+mvn test
+```
